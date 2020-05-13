@@ -1,5 +1,6 @@
 task :environment do 
-  require_relative
+  require_relative './config/environment'
+end
 
 namespace :db do
   desc 'migrate changes to your database'
